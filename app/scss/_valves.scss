@@ -1,0 +1,39 @@
+.valves-block {
+    display: flex;
+    align-items: center;
+}
+.valves-block__content {
+    max-width: 51rem;
+}
+.valves-block__content-title {
+    margin-bottom: 3.8rem;
+    font-size: 5.4rem;
+}
+.valves-block__content-text {
+    margin-bottom: 1.5rem;
+    color: #89A0B7;
+    line-height: 160%;
+}
+.valves-block__img {
+    margin-left: 2rem;
+}
+.goods-valves{
+    padding-bottom: 0;
+}
+.special-valves .special-block__content{
+    padding-top: 4rem;
+    max-width: 30rem;
+}
+
+
+
+//VALVE
+.valve{
+    padding-top: 6rem;
+}
+.valve .valves-block__content{
+    max-width: 65rem;
+}
+.valve .valves-block__img{
+    margin-left: 10rem;
+}

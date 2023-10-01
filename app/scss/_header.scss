@@ -1,0 +1,119 @@
+.header{
+    padding-top: 2rem;
+}
+.header__top {
+    margin-bottom: 2.3rem;
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+.header__top-item {
+    position: relative;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 120%;
+}
+.header__top-item::before{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    top: -2px;
+    left: -30px;
+}
+.header__top-item--phone::before {
+    background: url('../images/home/phone.svg') no-repeat;
+}
+.header__top-item--addres::before {
+    background: url('../images/home/addres.svg') no-repeat;
+}
+.header__top-item--mail::before {
+    background: url('../images/home/mail.svg') no-repeat;
+}
+.header__top-item--time::before {
+    background: url('../images/home/time.svg') no-repeat;
+}
+.header__center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.header__center-wrapper{
+    display: flex;
+    gap: 1rem;
+    margin-left: 2rem;
+}
+.logo {
+    min-width: 14rem;
+}
+.header__search {
+    margin-left: 4rem;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    border: 1px solid #CDD5DC;
+}
+.header__search-btn{
+    position: relative;
+    margin-left: 1rem;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 14px;
+    background:  linear-gradient(180deg, #3490E4 0%, #1F69D7 100%);
+    box-shadow: 0px 4px 24px 0px rgba(76, 138, 231, 0.40);
+    border: none;
+    background-color: transparent;
+}
+.header__search-btn::before{
+    position: absolute;
+    content: '';
+}
+.header__search-input {
+    width: 100%;
+    margin-left: 2rem;
+    padding-right: 2rem;
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+.header__search-input::placeholder{
+    color: #99A8B5;
+    font-weight: 700;
+}
+.header__center-basket,
+.header__center-heart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    height: 6rem;
+    padding: 1rem;
+    border-radius: 16px;
+    background: #FBFBFB;
+}
+.header__bottom {
+   transform: translateY(15px);
+}
+.nav {
+    max-width: 97rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1.6rem;
+    padding-bottom: 2.1rem;
+    border-radius: 60px;
+    background: #FBFBFB;
+    box-shadow: 0px 18px 44px 0px rgba(70, 115, 148, 0.07);
+}
+.menu__list {
+    display: flex;
+    gap: 7rem;
+    justify-content: center;
+    font-weight: 700;
+}
