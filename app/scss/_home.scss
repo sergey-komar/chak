@@ -123,10 +123,15 @@
 
 //GOODS
 .goods {
+    position: relative;
     padding-top: 9rem;
     padding-bottom: 25.7rem;
     background-color: #EFF2F7;
+    z-index: 2;
+    background: url('../images/home/goods-home-bg.png') no-repeat;
+    background-position: right top ;
 }
+
 .goods__title {
     margin-bottom: 6.2rem;
     text-align: center;
@@ -276,12 +281,13 @@
 //SPECIAL
 .special{
     position: relative;
-    padding-top: 15rem;
-    padding-bottom: 35rem;
-    background-image: url('../images/home/special-bg.jpg');
+    // padding-top: 25rem;
+    padding-bottom: 42rem;
+    // background-image: url('../images/home/special-bg.jpg');
+    background: url('../images/home/Group 203.png') no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top;
     background-color: #EFF2F7;
     transform: translateY(22rem);
     z-index: 1;
@@ -291,7 +297,7 @@
     justify-content: space-between;
 }
 .special-block__content {
-    max-width: 43rem;
+    max-width: 37rem;
 }
 .special-block__content-title {
     margin-bottom: 3rem;

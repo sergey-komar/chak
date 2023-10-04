@@ -1,0 +1,28 @@
+.contact {
+    padding-top: 2.5rem;
+}
+
+.contact-block {
+    display: flex;
+    gap: 2.4rem;
+    margin-bottom: 4rem;
+}
+.contact-block__item {
+    width: 24%;
+    padding: 5rem 6rem 2rem 6rem;
+    border-radius: 16px;
+    background:  linear-gradient(180deg, #FFF 0%, #F3FAFF 100%);
+    
+}
+.contact-block__item-title {
+    margin-bottom: 1rem;
+    color: #89A0B7;
+    text-align: center;
+}
+.contact-block__item-text {
+    font-weight: 800;
+    text-align: center;
+}
+.contact__map iframe{
+    width: 100%;
+}
