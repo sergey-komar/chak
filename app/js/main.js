@@ -6,3 +6,7 @@ $(function () {
         nextArrow: '<button type="button" class="slick-next-home"></button>'
     })
 })
+
+window.addEventListener('DOMContentLoaded', () => {
+   
+})
